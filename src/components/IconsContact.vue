@@ -47,7 +47,7 @@
 <style scoped>
   .box-icon {
         width: 4%;
-    padding: 11px;
+    padding: 15px;
     box-shadow: 1px 2px 4px 0px #8c8c8c;
     border-radius: 100px;
     margin: 17px;
