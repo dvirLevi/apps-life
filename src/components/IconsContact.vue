@@ -46,7 +46,8 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .box-icon {
-        width: 4%;
+        width: 80px;
+    height: 80px;
     padding: 15px;
     box-shadow: 1px 2px 4px 0px #8c8c8c;
     border-radius: 100px;
@@ -54,7 +55,8 @@
   }
 @media (max-width: 767.98px) {
 .box-icon{
-  width: 20%;
+  width: 60px;
+    height: 60px;
     padding: 11px;
     -webkit-box-shadow: 1px 2px 4px 0px #8c8c8c;
     box-shadow: 1px 2px 4px 0px #8c8c8c;
