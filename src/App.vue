@@ -7,6 +7,7 @@
 <style>
 #app {
   text-align: center;
+  font-family: 'Assistant', sans-serif;
 }
 .center-all {
 display: flex;

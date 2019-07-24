@@ -5,6 +5,7 @@
         <img class="w-100" :src="icon.img" alt="">
       </a>
     </div>
+    <!-- <i style='font-size:60px' class='fab'>&#xf232;</i> -->
   </div>
 </template>
 
@@ -52,16 +53,13 @@
     box-shadow: 1px 2px 4px 0px #8c8c8c;
     border-radius: 100px;
     margin: 17px;
+    background-color: #fdfaf2;
   }
 @media (max-width: 767.98px) {
 .box-icon{
   width: 60px;
     height: 60px;
     padding: 11px;
-    -webkit-box-shadow: 1px 2px 4px 0px #8c8c8c;
-    box-shadow: 1px 2px 4px 0px #8c8c8c;
-    border-radius: 100px;
-    margin: 17px;
 }
 }
       
