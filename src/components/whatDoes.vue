@@ -14,7 +14,7 @@
 
   export default {
     name: 'whatDoes',
-    props: {},
+    props: ['ifAnim'],
     components: {
         whatDoesBox
     },
@@ -38,14 +38,11 @@
           img: require('../assets/one-page.png'),
           id: 3
         },],
-        ifAnim: "",
 
       }
     },
     mounted(){
-       window.onscroll = () => {
-        this.ifAnim = document.documentElement.scrollTop
-      };
+      
     },
     methods: {
 

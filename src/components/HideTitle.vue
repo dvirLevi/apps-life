@@ -14,19 +14,17 @@
 
   export default {
     name: 'HideTitle',
-    props: {},
+    props: ['ifShowTitle'],
     components: {
       Logo
     },
     data() {
       return {
-        ifShowTitle: ''
+        
       }
     },
     mounted() {
-      window.onscroll = () => {
-        this.ifShowTitle = document.documentElement.scrollTop
-      };
+     
     },
     computed: {
       heightTitle() {

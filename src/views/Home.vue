@@ -1,8 +1,8 @@
 <template>
   <div>
     <Title/>
-    <HideTitle/>
-    <whatDoes/>
+    <HideTitle :ifShowTitle="ifShowTitle"/>
+    <whatDoes :ifAnim="ifAnim"/>
     <Products/>
     <Contact/>
     <Footer/>
@@ -28,6 +28,18 @@
       Contact,
       Footer,
       whatDoes
+    },
+    data(){
+      return {
+ifShowTitle: "",
+ifAnim: ""
+      }
+    },
+    mounted(){
+      window.onscroll = () => {
+        this.ifShowTitle = document.documentElement.scrollTop;
+        this.ifAnim = document.documentElement.scrollTop
+      };
     }
   }
 </script>
