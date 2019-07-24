@@ -34,7 +34,7 @@
         return 0
       },
       namAnimScale() {
-        if (this.ifAnim - this.topBox < 360 ) {
+        if (this.ifAnim - this.topBox < 359 ) {
           let x = this.ifAnim - this.topBox;
           let y = x / 3.6;
           return '0.' + y.toFixed(0);
