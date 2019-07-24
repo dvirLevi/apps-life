@@ -55,7 +55,7 @@
 <style scoped>
   .row {
     background-color: #f3de80;
-    margin-top: -115px
+    margin-top: -50px
   }
 
   .title-prod {
@@ -84,7 +84,7 @@
 
   @media (max-width: 767.98px) {
     .row {
-      margin-top: -78px
+      margin-top: -58px
     }
 
     .box-what {
