@@ -1,7 +1,7 @@
 <template>
   <div ref="boxWhat" class="box-what center-all">
     <div class="w-100 center-all">
-      <img :src="item.img" alt="" :style="{transform: `rotate(${namAnim}deg) scale(${namAnimScale})` }">
+      <img :src="item.img" alt="" :style="{transform: `rotate(${namAnim}deg) scale(${namAnimScale})`, opacity: namAnimScale }">
     </div>
     <h2>{{item.title}}</h2>
     <p>{{item.text}}</p>

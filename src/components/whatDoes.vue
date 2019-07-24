@@ -1,10 +1,10 @@
 <template>
-  <div class="row mt-4">
+  <div class="row">
     <div class="col">
       <p class="title-prod mt-5">מה אנחנו עושים?</p>
-      <div  class="w-100 center-all">
-       <whatDoesBox v-for="item in does" :key="item.id" :item="item" :ifAnim="ifAnim"/>
-       </div>
+      <div class="w-100 center-all">
+        <whatDoesBox v-for="item in does" :key="item.id" :item="item" :ifAnim="ifAnim" />
+      </div>
     </div>
   </div>
 </template>
@@ -16,33 +16,34 @@
     name: 'whatDoes',
     props: ['ifAnim'],
     components: {
-        whatDoesBox
+      whatDoesBox
     },
     data() {
       return {
-        does:[{
-          title: "פיתוח אפליקציות לווב",
-          text: "מערכות ואפליקציות שנמצאות על רשת האינטרנט ונגישות לכל מי שתרצו ברחבי העולם",
-          img: require('../assets/web.png'),
-          id: 1
-        },
-        {
-          title: "פיתוח אפליקציות מותאמות למובייל",
-          text: "פיתוח אפליקציות היברידיות שמותאמות לכל הפלטפורמות",
-           img: require('../assets/mobile.png'),
-          id: 2
-        },
-        {
-          title: "פיתוח אתרי One-page ודפי נחיתה ",
-          text: "פיתוח אתר תדמית או דף נחיתה לשיווק עסק או כל דבר אחר שתרצה",
-          img: require('../assets/one-page.png'),
-          id: 3
-        },],
+        does: [{
+            title: "פיתוח אפליקציות לווב",
+            text: "מערכות ואפליקציות שנמצאות על רשת האינטרנט ונגישות לכל מי שתרצו ברחבי העולם",
+            img: require('../assets/web.png'),
+            id: 1
+          },
+          {
+            title: "פיתוח אפליקציות מותאמות למובייל",
+            text: "פיתוח אפליקציות היברידיות שמותאמות לכל הפלטפורמות",
+            img: require('../assets/mobile.png'),
+            id: 2
+          },
+          {
+            title: "פיתוח אתרי One-page ודפי נחיתה ",
+            text: "פיתוח אתר תדמית או דף נחיתה לשיווק עסק או כל דבר אחר שתרצה",
+            img: require('../assets/one-page.png'),
+            id: 3
+          },
+        ],
 
       }
     },
-    mounted(){
-      
+    mounted() {
+
     },
     methods: {
 
@@ -54,6 +55,7 @@
 <style scoped>
   .row {
     background-color: #f3de80;
+    margin-top: -115px
   }
 
   .title-prod {
@@ -68,26 +70,29 @@
     background-color: #efd76d;
     box-shadow: 1px 1px 3px #82828259;
     margin: 30px;
-        height: 361px;
-        padding: 10px
+    height: 361px;
+    padding: 10px
   }
 
-   .box-what p{
-   font-size: 21px;
-   
+  .box-what p {
+    font-size: 21px;
   }
 
-   .box-what img{
-   width: 50%;
-   
+  .box-what img {
+    width: 50%;
   }
+
   @media (max-width: 767.98px) {
+    .row {
+      margin-top: -78px
+    }
+
     .box-what {
-    width: 90%;
-  }
-  .box-what img{
-   width: 70%;
-   
-  }
+      width: 90%;
+    }
+
+    .box-what img {
+      width: 70%;
+    }
   }
 </style>
