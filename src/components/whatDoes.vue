@@ -2,35 +2,21 @@
   <div class="row mt-4">
     <div class="col">
       <p class="title-prod mt-5">מה אנחנו עושים?</p>
-      <!-- <h5>רוצים שנפתח לכם אתר או אפליקציה?</h5> -->
-      <!-- <h5>דברו איתנו!</h5> -->
-      <!-- <IconsContact /> -->
-      <!-- <ul>
-        <li>פיתוח אפליקציות לווב ולמובייל</li>
-        <li>בניית אתרי one page</li>
-        <li>בניית דפי נחיתה</li>
-      </ul> -->
-      <div class="w-100 center-all">
-        <div class="box-what center-all" v-for="item in does" :key="item.id">
-          <div class="w-100 center-all">
-            <img :src="item.img" alt="">
-          </div>
-          <h2>{{item.title}}</h2>
-          <p>{{item.text}}</p>
-        </div>
-      </div>
+      <div  class="w-100 center-all">
+       <whatDoesBox v-for="item in does" :key="item.id" :item="item" :ifAnim="ifAnim"/>
+       </div>
     </div>
   </div>
 </template>
 
 <script>
-  // import IconsContact from '@/components/IconsContact.vue'
+  import whatDoesBox from '@/components/whatDoesBox.vue'
 
   export default {
     name: 'whatDoes',
     props: {},
     components: {
-
+        whatDoesBox
     },
     data() {
       return {
@@ -51,9 +37,15 @@
           text: "פיתוח אתר תדמית או דף נחיתה לשיווק עסק או כל דבר אחר שתרצה",
           img: require('../assets/one-page.png'),
           id: 3
-        },]
+        },],
+        ifAnim: "",
 
       }
+    },
+    mounted(){
+       window.onscroll = () => {
+        this.ifAnim = document.documentElement.scrollTop
+      };
     },
     methods: {
 

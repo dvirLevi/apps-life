@@ -13,7 +13,7 @@
   import Logo from '@/components/Logo.vue'
 
   export default {
-    name: 'Title',
+    name: 'HideTitle',
     props: {},
     components: {
       Logo
