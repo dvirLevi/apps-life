@@ -21,7 +21,7 @@
         icons:[
           {
             img:require('../assets/whatsapp.png'),
-            link:"https://api.whatsapp.com/send?phone=0545993678",
+            link:"https://api.whatsapp.com/send?phone=972545993678",
             id:1
           },
            {
