@@ -70,7 +70,7 @@
     width: 115px;
   }
 
-  svg {
+  .wrap-logo svg {
     margin-bottom: 1.5%;
   }
 
