@@ -24,16 +24,17 @@
     },
     data() {
       return {
-        products: [{
-            img: require('../assets/send-screen.png'),
-            text: "אפליקציה שעושה סדר בסנדוויצ'ים של הילדים",
-            link: "https://dvirlevi.github.io/send-app/",
-            id: 1
-          },
+        products: [
           {
             img: require('../assets/gin-screen.png'),
             text: "אפליקציה לניהול גינה",
             link: "https://gin-apps.herokuapp.com/",
+            id: 1
+          },
+          {
+            img: require('../assets/send-screen.png'),
+            text: "אפליקציה שעושה סדר בסנדוויצ'ים של הילדים",
+            link: "https://dvirlevi.github.io/send-app/",
             id: 2
           },
           {
@@ -44,7 +45,7 @@
           },
           {
             img: require('../assets/rambam-screen.png'),
-            text: 'מערכת ללווי חוברת חופש לילדים של מרכז מורשת הרמב"ם',
+            text: 'מערכת לווי לחוברת חופש של מרכז מורשת הרמב"ם',
             link: "https://answer-rambam.herokuapp.com/",
             id: 4
           },
