@@ -33,7 +33,7 @@
     },
     methods:{
       scroll(){
-        window.scrollTo(0, window.innerHeight)
+        window.scrollTo(0, window.innerHeight + 2)
       }
     }
   }
