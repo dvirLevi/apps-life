@@ -50,12 +50,12 @@
     margin: 0;
     margin-left: -10%;
     text-align: left;
-    line-height: 1.4;
   }
 
   .large h1 {
     font-size: 100px;
     width: 65%;
+    line-height: 1.4;
     /* text-align: left; */
   }
 
@@ -65,10 +65,13 @@
 
   .medium h1 {
     font-size: 50px;
+    line-height: 1.5;
+
   }
 
   .medium svg {
     width: 115px;
+    
   }
 
   .wrap-logo svg {
@@ -88,6 +91,7 @@
 
     .medium h1 {
       font-size: 30px;
+          line-height: 1.6;
     }
 
     .medium svg {
