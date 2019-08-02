@@ -6,7 +6,7 @@
         <IconsContact/>
         </div>
         <Logo size="large"/>
-        <h1 class="w-100">פיתוח אתרים ואפליקציות</h1>
+        <h2 class="w-100">פיתוח אתרים ואפליקציות</h2>
       </div>
       <div class="w-100 p-3 arrow">
         <img @click="scroll()" src="../assets/arrow.png" alt="">
@@ -53,7 +53,7 @@
     flex-wrap: wrap;
   }
 
-  .bac-title h1 {
+  .bac-title h2 {
     font-family: 'Assistant', sans-serif;
     font-size: 48px;
     font-weight: 200;

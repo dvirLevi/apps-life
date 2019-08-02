@@ -1,6 +1,6 @@
 <template>
   <div class="wrap-logo" :class="size">
-    <p>AppsLife</p>
+    <h1>AppsLife</h1>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px"
       viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
       <path d="M16.667,43.33C16.667,69.104,37.559,90,63.333,90v-6.667c-22.093,0-40-17.91-40-40.003H16.667z"></path>
@@ -44,15 +44,16 @@
     fill: rgba(224, 92, 92, 1);
   }
 
-  .wrap-logo p {
+  .wrap-logo h1 {
     font-family: 'Poiret One', cursive;
     color: #ffffff;
     margin: 0;
     margin-left: -10%;
     text-align: left;
+    line-height: 1.4;
   }
 
-  .large p {
+  .large h1 {
     font-size: 100px;
     width: 65%;
     /* text-align: left; */
@@ -62,7 +63,7 @@
     width: 35%;
   }
 
-  .medium p {
+  .medium h1 {
     font-size: 50px;
   }
 
@@ -75,7 +76,7 @@
   }
 
   @media (max-width: 767.98px) {
-    .large p {
+    .large h1 {
       font-size: 55px;
       width: 65%;
       /* text-align: left; */
@@ -85,7 +86,7 @@
       width: 35%;
     }
 
-    .medium p {
+    .medium h1 {
       font-size: 30px;
     }
 
