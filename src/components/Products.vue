@@ -25,6 +25,12 @@
     data() {
       return {
         products: [
+           {
+            img: require('../assets/napoli.png'),
+            text: "אתר חנות לשיווק ומכירת תנורי נאפולי",
+            link: "https://napoli-site.netlify.com/",
+            id: 0
+          },
           {
             img: require('../assets/gin-screen.png'),
             text: "אפליקציה לניהול גינה",
@@ -100,7 +106,7 @@
     padding: 7px;
     margin: 8px;
     font-weight: 800;
-    border-radius: 39px;
+    /* border-radius: 39px; */
     cursor: pointer;
     text-decoration: none;
     color: black;
