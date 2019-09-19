@@ -24,8 +24,7 @@
     },
     data() {
       return {
-        products: [
-           {
+        products: [{
             img: require('../assets/napoli.png'),
             text: "אתר חנות לשיווק ומכירת תנורי נאפולי",
             link: "https://napoli-site.netlify.com/",
@@ -72,38 +71,41 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.title-prod {
-  width: 100%;
-  font-family: 'Assistant', sans-serif;
-  font-weight: 200;
-      font-size: 51px;
-}
+  .title-prod {
+    width: 100%;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    font-size: 51px;
+  }
+
   .box-prod {
-        width: 85%;
+    width: 85%;
     border: solid rgb(241, 241, 241) 1px;
     margin-top: 5%;
     box-shadow: 1px 1px 3px gainsboro;
   }
-   .box-prod img{
+
+  .box-prod img {
     height: 177px;
     max-width: 100%;
-        margin: 15px
+    margin: 15px
   }
-   .box-prod p{
+
+  .box-prod p {
     width: 85%;
     font-family: 'Assistant', sans-serif;
     background-color: rgba(254, 151, 151, 0.15);
-        font-size: 21px;
+    font-size: 21px;
     margin-top: 17px;
     min-height: 68px;
   }
 
-   .box-prod a{
+  .box-prod a {
     font-family: 'Assistant', sans-serif;
     background-color: rgba(254, 161, 161, 1);
-        font-size: 18px;
+    font-size: 18px;
     padding: 7px;
-    margin: 8px;
+    margin: 28px 0px;
     font-weight: 800;
     /* border-radius: 39px; */
     cursor: pointer;
@@ -111,12 +113,11 @@
     color: black;
   }
 
-@media (max-width: 767.98px) {
-  .box-prod p{
-    font-size: 21px;
-    min-height: 101px;
-    padding: 18px;
+  @media (max-width: 767.98px) {
+    .box-prod p {
+      font-size: 21px;
+      min-height: 101px;
+      padding: 18px;
+    }
   }
-}
-      
 </style>
