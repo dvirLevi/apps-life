@@ -95,14 +95,13 @@
     background-color: rgba(254, 151, 151, 0.15);
         font-size: 21px;
     margin-top: 17px;
-    height: 68px;
+    min-height: 68px;
   }
 
    .box-prod a{
     font-family: 'Assistant', sans-serif;
     background-color: rgba(254, 161, 161, 1);
-        font-size: 21px;
-       font-size: 15px;
+        font-size: 18px;
     padding: 7px;
     margin: 8px;
     font-weight: 800;
@@ -114,8 +113,8 @@
 
 @media (max-width: 767.98px) {
   .box-prod p{
-    font-size: 17px;
-    height: 101px;
+    font-size: 21px;
+    min-height: 101px;
     padding: 18px;
   }
 }
