@@ -27,8 +27,14 @@
         products: [{
             img: require('../assets/napoli.png'),
             text: "אתר חנות לשיווק ומכירת תנורי נאפולי",
-            link: "https://napoli-site.netlify.com/",
+            link: "https://www.napoli-oven.co.il",
             id: 0
+          },
+          {
+            img: require('../assets/rambam-screen.png'),
+            text: 'מערכת לווי לחוברת חופש של מרכז מורשת הרמב"ם',
+            link: "https://answer-rambam.herokuapp.com/",
+            id: 4
           },
           {
             img: require('../assets/gin-screen.png'),
@@ -49,9 +55,9 @@
             id: 3
           },
           {
-            img: require('../assets/rambam-screen.png'),
-            text: 'מערכת לווי לחוברת חופש של מרכז מורשת הרמב"ם',
-            link: "https://answer-rambam.herokuapp.com/",
+            img: require('../assets/emoji-screen.png'),
+            text: "משחק אימוג'ים",
+            link: "https://imoji-game.herokuapp.com/",
             id: 4
           },
           {
