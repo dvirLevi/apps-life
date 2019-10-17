@@ -42,12 +42,12 @@
             link: "https://gin-apps.herokuapp.com/",
             id: 1
           },
-          {
-            img: require('../assets/send-screen.png'),
-            text: "אפליקציה שעושה סדר בסנדוויצ'ים של הילדים",
-            link: "https://dvirlevi.github.io/send-app/",
-            id: 2
-          },
+          // {
+          //   img: require('../assets/send-screen.png'),
+          //   text: "אפליקציה שעושה סדר בסנדוויצ'ים של הילדים",
+          //   link: "https://dvirlevi.github.io/send-app/",
+          //   id: 2
+          // },
           {
             img: require('../assets/gimatria-screen.png'),
             text: "אפליקציה לחישוב גימטריות עם אפשרות להעתקת הטקסט לשעשועונים וכד'",
