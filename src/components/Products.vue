@@ -31,6 +31,12 @@
             id: 0
           },
           {
+            img: require('../assets/leda.png'),
+            text: "אתר להריון ולידה",
+            link: "https://www.mitkonenet.com",
+            id: 0
+          },
+          {
             img: require('../assets/rambam-screen.png'),
             text: 'מערכת לווי לחוברת חופש של מרכז מורשת הרמב"ם',
             link: "https://answer-rambam.herokuapp.com/",
