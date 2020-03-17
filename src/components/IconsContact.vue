@@ -57,6 +57,7 @@
     border-radius: 100px;
     margin: 17px;
     background-color: #fdfaf2;
+    z-index: 4;
   }
 
   .ani1 {

@@ -3,7 +3,7 @@
     <div class="col">
       <div class="bac-title position-relative" :style="{height: heightTitle + 'px' }">
         <div class="position-absolute w-100">
-          <IconsContact class="zindex" />
+          <IconsContact />
         </div>
         <Logo size="large" class="zindex" />
         <h2 class="w-100 zindex">פיתוח אתרים ואפליקציות</h2>
