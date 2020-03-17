@@ -70,7 +70,7 @@
             img: require('../assets/emoji-screen.png'),
             text: "משחק אימוג'ים",
             link: "https://imoji-game.herokuapp.com/",
-            id: 4
+            id: 7
           },
           {
             img: require('../assets/rambam-screen2.png'),

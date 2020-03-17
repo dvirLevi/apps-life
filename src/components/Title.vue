@@ -3,10 +3,13 @@
     <div class="col">
       <div class="bac-title position-relative" :style="{height: heightTitle + 'px' }">
         <div class="position-absolute w-100">
-        <IconsContact/>
+          <IconsContact class="zindex" />
         </div>
-        <Logo size="large"/>
-        <h2 class="w-100">פיתוח אתרים ואפליקציות</h2>
+        <Logo size="large" class="zindex" />
+        <h2 class="w-100 zindex">פיתוח אתרים ואפליקציות</h2>
+        <vue-particles color="#4b383b" :particleOpacity="0.7" :particlesNumber="80" shapeType="circle" :particleSize="4"
+          linesColor="#4b383b" :linesWidth="1" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3"
+          :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push"></vue-particles>
       </div>
       <div class="w-100 p-3 arrow">
         <img @click="scroll()" src="../assets/arrow.png" alt="">
@@ -31,8 +34,8 @@
         return window.innerHeight - 80;
       }
     },
-    methods:{
-      scroll(){
+    methods: {
+      scroll() {
         window.scrollTo(0, window.innerHeight + 2)
       }
     }
@@ -41,13 +44,14 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.col{
-       padding-right: 0 !important;
-       padding-left: 0 !important;
-}
+  .col {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
   .bac-title {
     width: 100%;
-        background: linear-gradient(180deg, #F7BABA 0%, rgba(255, 255, 255, 0) 100%), #d85f5f;
+    background: linear-gradient(180deg, #F7BABA 0%, rgba(255, 255, 255, 0) 100%), #d85f5f;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -57,6 +61,11 @@
     font-family: 'Assistant', sans-serif;
     font-size: 48px;
     font-weight: 200;
+  }
+
+  .zindex {
+    position: relative;
+    z-index: 2;
   }
 
   .arrow {

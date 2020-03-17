@@ -5,6 +5,9 @@ import store from './store'
 import "@/style/main.css"
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import VueParticles from 'vue-particles'
+
+Vue.use(VueParticles)
 
 Vue.config.productionTip = false
 
