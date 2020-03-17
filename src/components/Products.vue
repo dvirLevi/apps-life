@@ -6,7 +6,7 @@
         <div class="box-prod center-all">
           <img :src="product.img" alt="">
           <p class="center-all">{{product.text}}</p>
-          <a :href="product.link">למעבר לאתר/אפליקציה לחץ כאן</a>
+          <a :href="product.link" target="_blanc">למעבר לאתר/אפליקציה לחץ כאן</a>
         </div>
       </div>
     </div>
@@ -34,7 +34,13 @@
             img: require('../assets/leda.png'),
             text: "אתר להריון ולידה",
             link: "https://www.mitkonenet.com",
-            id: 0
+            id: 2
+          },
+          {
+            img: require('../assets/time-screen.png'),
+            text: "אפליקציה לזמני היום",
+            link: "https://kash-bezmana.netlify.com/",
+            id: 6
           },
           {
             img: require('../assets/rambam-screen.png'),
