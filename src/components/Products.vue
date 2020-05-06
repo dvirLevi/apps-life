@@ -30,6 +30,12 @@
             link: "https://www.napoli-oven.co.il",
             id: 0
           },
+           {
+            img: require('../assets/meshek-screen.png'),
+            text: "אתר חדשות המשק",
+            link: "https://www.meshekil.com/",
+            id: 7
+          },
           {
             img: require('../assets/leda.png'),
             text: "אתר להריון ולידה",
@@ -41,6 +47,12 @@
             text: "אפליקציה לזמני היום",
             link: "https://kash-bezmana.netlify.com/",
             id: 6
+          },
+           {
+            img: require('../assets/shopil-screen.png'),
+            text: "אתר קונים ישראלי",
+            link: "https://shop-il.netlify.app/",
+            id: 8
           },
           {
             img: require('../assets/rambam-screen.png'),
