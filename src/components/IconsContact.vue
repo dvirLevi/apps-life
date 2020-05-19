@@ -109,7 +109,7 @@
 
     .box-icon i {
       font-size: 34px;
-      margin-top: 4px;
+      margin-top: 2px;
     }
   }
 </style>
