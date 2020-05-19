@@ -46,7 +46,7 @@
 
   .wrap-logo h1 {
     font-family: 'Poiret One', cursive;
-    color: #ffffff;
+    color: rgba(224, 92, 92, 1);
     margin: 0;
     margin-left: -10%;
     text-align: left;
@@ -65,12 +65,12 @@
 
   .medium h1 {
     font-size: 50px;
-    line-height: 1.5;
+    line-height: 1.3;
 
   }
 
   .medium svg {
-    width: 115px;
+    width: 99px;
     
   }
 
@@ -91,11 +91,11 @@
 
     .medium h1 {
       font-size: 30px;
-          line-height: 1.6;
+          line-height: 1.4;
     }
 
     .medium svg {
-      width: 78px;
+      width: 67px;
     }
   }
 </style>

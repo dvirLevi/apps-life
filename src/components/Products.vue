@@ -3,11 +3,11 @@
     <p class="title-prod mt-5">הפיתוחים שלנו</p>
     <div class="col-md-4" v-for="product in products" :key="product.id">
       <div class="w-100 center-all">
-        <div class="box-prod center-all">
+        <a class="box-prod center-all" :href="product.link" target="_blanc">
           <img :src="product.img" alt="">
           <p class="center-all">{{product.text}}</p>
-          <a :href="product.link" target="_blanc">למעבר לאתר/אפליקציה לחץ כאן</a>
-        </div>
+          <!-- <a :href="product.link" target="_blanc">למעבר לאתר/אפליקציה לחץ כאן</a> -->
+        </a>
       </div>
     </div>
   </div>
@@ -26,7 +26,7 @@
       return {
         products: [{
             img: require('../assets/napoli.png'),
-            text: "אתר חנות לשיווק ומכירת תנורי נאפולי",
+            text: "אתר-חנות לשיווק ומכירת תנורי נאפולי",
             link: "https://www.napoli-oven.co.il",
             id: 0
           },
@@ -38,13 +38,13 @@
           },
           {
             img: require('../assets/leda.png'),
-            text: "אתר להריון ולידה",
+            text: "אתר מתקוננת להריון ולידה",
             link: "https://www.mitkonenet.com",
             id: 2
           },
           {
             img: require('../assets/time-screen.png'),
-            text: "אפליקציה לזמני היום",
+            text: "אפליקצית זמני היום",
             link: "https://kash-bezmana.netlify.com/",
             id: 6
           },

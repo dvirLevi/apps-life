@@ -51,16 +51,20 @@
 
   .bac-title {
     width: 100%;
-    background: linear-gradient(180deg, #F7BABA 0%, rgba(255, 255, 255, 0) 100%), #d85f5f;
+    /* background: linear-gradient(180deg, #F7BABA 0%, rgba(255, 255, 255, 0) 100%), #d85f5f; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 
   .bac-title h2 {
-    font-family: 'Assistant', sans-serif;
+    /* font-family: 'Assistant', sans-serif;
     font-size: 48px;
+    font-weight: 200; */
+    font-family: 'Assistant', sans-serif;
+    font-size: 41px;
     font-weight: 200;
+    padding-left: 97px;
   }
 
   .zindex {
@@ -92,4 +96,12 @@
       margin-top: -10px;
     }
   }
+ @media (max-width: 767.98px) {
+ .bac-title h2 {
+  font-size: 23px;
+    padding-left: 46px;
+  }
+ 
+ }
+     
 </style>

@@ -56,7 +56,7 @@
     box-shadow: 1px 2px 4px 0px #8c8c8c;
     border-radius: 100px;
     margin: 17px;
-    background-color: #fdfaf2;
+    background-color: #ff8686;
     z-index: 4;
   }
 
