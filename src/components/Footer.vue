@@ -1,5 +1,5 @@
 <template>
-  <div class="row mt-4">
+  <div class="row">
             <div class="col bg-dark text-white contact">
                 <p class="w-100 text-center m-1">נבנה ופותח בAppsLife ליצירת קשר - <a
                         href="mailto:dvirleviapp@gmail.com">לחץ כאן!</a>

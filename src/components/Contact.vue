@@ -35,7 +35,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .row {
-    background-color: #e05c5c26;
+    background-color: rgba(254, 151, 151, 0.15);
     background-image: url(https://www.aspaklaria-studio.co.il/wp-content/uploads/2019/05/dots-black-1.svg);
   }
 
