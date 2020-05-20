@@ -5,7 +5,7 @@
       <div class="w-100 center-all">
         <a class="box-prod center-all" :href="product.link" target="_blanc">
           <img :src="product.img" alt="">
-          <p class="center-all">{{product.text}}</p>
+          <p class="center-all p-2">{{product.text}}</p>
           <!-- <a :href="product.link" target="_blanc">למעבר לאתר/אפליקציה לחץ כאן</a> -->
         </a>
       </div>
