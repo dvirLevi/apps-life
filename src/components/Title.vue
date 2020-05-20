@@ -12,7 +12,8 @@
           :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push"></vue-particles>
       </div>
       <div class="w-100 p-3 arrow">
-        <img @click="scroll()" src="../assets/arrow.png" alt="">
+        <!-- <img @click="scroll()" src="../assets/arrow.png" alt=""> -->
+        <i class="fas fa-chevron-down" @click="scroll()"></i>
       </div>
     </div>
   </div>
@@ -77,6 +78,15 @@
   }
 
   .arrow img {
+    cursor: pointer;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .arrow i {
+    color: #e05c5c;
+    font-size: 68px;
     cursor: pointer;
     animation-name: example;
     animation-duration: 2s;

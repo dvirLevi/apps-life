@@ -35,7 +35,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .row {
-    background-color: #838598;
+    background-color: #e05c5c26;
     background-image: url(https://www.aspaklaria-studio.co.il/wp-content/uploads/2019/05/dots-black-1.svg);
   }
 
@@ -44,13 +44,13 @@
     font-family: 'Assistant', sans-serif;
     font-weight: 200;
     font-size: 51px;
-    color: #ffffff;
+    /* color: #000000; */
   }
 
   h5 {
     margin: 0;
     font-size: 23px;
-    color: #ffffff;
+    /* color: #ffffff; */
   }
 
   .contact-us img {

@@ -56,7 +56,7 @@
     width: 80px;
     height: 80px;
     padding: 15px;
-    box-shadow: 1px 2px 4px 0px #8c8c8c;
+    box-shadow: 1px 2px 7px 0px #8c8c8cb8;
     border-radius: 100px;
     margin: 17px;
     background-color: #ff8686;
@@ -65,6 +65,18 @@
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+  }
+
+  .box-icon .fa-whatsapp {
+    font-size: 259%;
+  }
+
+  .box-icon .fa-phone-alt {
+    font-size: 217%;
+  }
+
+  .box-icon .fa-envelope {
+    font-size: 259%;
   }
 
   .ani1 {
@@ -82,9 +94,9 @@
 
   }
 
-  .box-icon i {
+  /* .box-icon i {
     font-size: 43px;
-  }
+  } */
 
   @keyframes example {
     0% {
@@ -107,9 +119,21 @@
       padding: 11px;
     }
 
-    .box-icon i {
+    .box-icon .fa-whatsapp {
+      font-size: 240%;
+    }
+
+    .box-icon .fa-phone-alt {
+      font-size: 188%;
+    }
+
+    .box-icon .fa-envelope {
+      font-size: 218%;
+    }
+
+    /* .box-icon i {
       font-size: 34px;
       margin-top: 2px;
-    }
+    } */
   }
 </style>
