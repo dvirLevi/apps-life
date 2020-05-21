@@ -112,7 +112,7 @@
     width: 85%;
     /* border: solid rgb(241, 241, 241) 1px; */
     margin-top: 5%;
-    box-shadow: 1px 1px 3px gainsboro;
+    box-shadow: 1px 1px 6px gainsboro;
   }
 
   .box-prod img {

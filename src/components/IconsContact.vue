@@ -59,7 +59,8 @@
     box-shadow: 1px 2px 7px 0px #8c8c8cb8;
     border-radius: 100px;
     margin: 17px;
-    background-color: #ff8686;
+    background-color: #444;
+    color: #fff;
     z-index: 4;
     cursor: pointer;
     animation-name: example;
