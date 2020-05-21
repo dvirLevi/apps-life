@@ -1,13 +1,13 @@
 <template>
-  <div class="row mt-4">
+  <div class="row mt-5 border-top">
     <div class="col">
       <p class="title-prod mt-5">יצירת קשר</p>
       <div class="w-100 center-all contact-us">
         <img src="../assets/contact-us.png" alt="">
       </div>
-      <h5>רוצים שנפתח לכם אתר או אפליקציה?</h5>
-      <h5>דברו איתנו!</h5>
-      <IconsContact />
+      <h5 class="mt-4">רוצים שנפתח לכם אתר או אפליקציה?</h5>
+      <h5 class="mt-2">דברו איתנו!</h5>
+      <IconsContact class="mt-4" />
     </div>
   </div>
 </template>
@@ -35,7 +35,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .row {
-    background-color: rgba(254, 151, 151, 0.15);
+    /* background-color: rgba(254, 151, 151, 0.15); */
     /* background-image: url(https://www.aspaklaria-studio.co.il/wp-content/uploads/2019/05/dots-black-1.svg); */
     /* background-size: 0.5%; */
   }
@@ -50,7 +50,7 @@
 
   h5 {
     margin: 0;
-    font-size: 23px;
+    font-size: 30px;
     /* color: #ffffff; */
   }
 

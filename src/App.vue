@@ -8,6 +8,7 @@
 #app {
   text-align: center;
   font-family: 'Assistant', sans-serif;
+  color: #444444;
 }
 .center-all {
 display: flex;
