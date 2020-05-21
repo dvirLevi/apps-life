@@ -37,6 +37,7 @@
   .row {
     background-color: rgba(254, 151, 151, 0.15);
     background-image: url(https://www.aspaklaria-studio.co.il/wp-content/uploads/2019/05/dots-black-1.svg);
+    background-size: 0.5%;
   }
 
   .title-prod {
@@ -58,6 +59,9 @@
   }
 
    @media (max-width: 767.98px) {
+     .row {
+    background-size: 2%;
+  }
      .contact-us img {
     width: 30%;
   }
