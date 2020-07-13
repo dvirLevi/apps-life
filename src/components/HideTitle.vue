@@ -1,14 +1,14 @@
 <template>
-<div class="w-100 sticky-top">
-  <div class="flip" v-if="ifShowTitle < heightTitle"></div>
-  <div v-if="ifShowTitle >= heightTitle" class="row  anim-title ">
-    <div class="col">
-      <div class="bac-title">
-        <Logo size="medium"/>
-        <!-- <h1 class="w-100">פיתוח אתרים ואפליקציות</h1> -->
+  <div class="w-100 my-sticky-top">
+    <div class="flip" v-if="ifShowTitle < heightTitle"></div>
+    <div v-if="ifShowTitle >= heightTitle" class="row  anim-title ">
+      <div class="col">
+        <div class="bac-title">
+          <Logo size="medium" />
+          <!-- <h1 class="w-100">פיתוח אתרים ואפליקציות</h1> -->
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </template>
 
@@ -23,11 +23,11 @@
     },
     data() {
       return {
-        
+
       }
     },
     mounted() {
-     
+
     },
     computed: {
       heightTitle() {
@@ -39,10 +39,18 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.col{
-       padding-right: 0 !important;
-       padding-left: 0 !important;
-}
+  .my-sticky-top {
+    position: sticky;
+    top: -1px;
+    right: 0;
+    z-index: 100;
+  }
+
+  .col {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
   .bac-title {
     width: 100%;
     /* background: linear-gradient(180deg, #ec9b9b 0%, rgba(255, 255, 255, 0) 100%), #d85f5f; */
@@ -67,17 +75,19 @@
     0% {
       opacity: 0;
     }
+
     100% {
-       opacity: 100;
+      opacity: 100;
     }
   }
 
   @media (max-width: 767.98px) {
-.bac-title {
-    height: 78px;
-  }
-   .flip {
-    height: 78px;
-  }
+    .bac-title {
+      height: 78px;
+    }
+
+    .flip {
+      height: 78px;
+    }
   }
 </style>
