@@ -1,8 +1,7 @@
 <template>
-  <div class="row">
+  <div class="row mt-5">
     <div class="col text-white contact">
-      <p class="w-100 text-center m-1">נבנה ופותח בAppsLife ליצירת קשר - <a href="mailto:dvirleviapp@gmail.com">לחץ
-          כאן!</a>
+      <p class="w-100 text-center m-1"><a href="mailto:dvirleviapp@gmail.com">נבנה ופותח בAppsLife</a>
       </p>
     </div>
   </div>

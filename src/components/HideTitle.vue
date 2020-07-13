@@ -1,7 +1,7 @@
 <template>
 <div class="w-100 sticky-top">
   <div class="flip" v-if="ifShowTitle < heightTitle"></div>
-  <div v-if="ifShowTitle >= heightTitle" class="row  anim-title">
+  <div v-if="ifShowTitle >= heightTitle" class="row  anim-title ">
     <div class="col">
       <div class="bac-title">
         <Logo size="medium"/>
