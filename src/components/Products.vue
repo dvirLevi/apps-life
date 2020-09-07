@@ -37,6 +37,13 @@
             id: 7
           },
           {
+            img: require('../assets/shemaryahu-screen.png'),
+            text: "שמריהו - חנות למכירת אדניות בוטיק",
+            link: "https://shemaryahu.com/",
+            id: 10
+          },
+          
+          {
             img: require('../assets/leda.png'),
             text: "אתר מתקוננת להריון ולידה",
             link: "https://www.mitkonenet.com",
