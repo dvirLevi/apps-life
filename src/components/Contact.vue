@@ -5,8 +5,8 @@
       <div class="w-100 center-all contact-us">
         <img src="../assets/contact-us.png" alt="">
       </div>
-      <h5 class="mt-4">רוצים שנפתח לכם אתר או אפליקציה?</h5>
-      <h5 class="mt-2">דברו איתנו!</h5>
+      <h5 class="mt-4 font-weight-lighter">רוצים שנפתח לכם אתר או אפליקציה?</h5>
+      <h5 class="mt-2 font-weight-lighter">דברו איתנו!</h5>
       <IconsContact class="mt-4" />
     </div>
   </div>
