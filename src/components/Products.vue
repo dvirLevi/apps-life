@@ -24,9 +24,16 @@
     },
     data() {
       return {
-        products: [{
+        products: [
+            {
+            img: require('../assets/shibolet-screen.png'),
+            text: "אתר שיבולת",
+            link: "https://www.shiboletpress.com/",
+            id: 7
+          },
+          {
             img: require('../assets/napoli.png'),
-            text: "אתר-חנות לשיווק ומכירת תנורי נאפולי",
+            text: "חנות לשיווק ומכירת תנורי נאפולי",
             link: "https://www.napoli-oven.co.il",
             id: 0
           },
