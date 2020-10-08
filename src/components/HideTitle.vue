@@ -58,7 +58,7 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    height: 115px;
+    height: 67px;
     box-shadow: 0 1px 9px #0000001f;
   }
 

@@ -64,13 +64,13 @@
   }
 
   .medium h1 {
-    font-size: 50px;
+    font-size: 32px;
     line-height: 1.3;
 
   }
 
   .medium svg {
-    width: 99px;
+    width: 61px;
     
   }
 
