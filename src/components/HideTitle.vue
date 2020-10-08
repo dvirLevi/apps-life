@@ -83,11 +83,11 @@
 
   @media (max-width: 767.98px) {
     .bac-title {
-      height: 78px;
+      height: 60px;
     }
 
     .flip {
-      height: 61px;
+      height: 60px;
     }
   }
 </style>
