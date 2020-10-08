@@ -90,12 +90,12 @@
     }
 
     .medium h1 {
-      font-size: 30px;
+      font-size: 24px;
           line-height: 1.4;
     }
 
     .medium svg {
-      width: 67px;
+      width: 57px;
     }
   }
 </style>

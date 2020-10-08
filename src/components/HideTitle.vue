@@ -87,7 +87,7 @@
     }
 
     .flip {
-      height: 78px;
+      height: 61px;
     }
   }
 </style>
