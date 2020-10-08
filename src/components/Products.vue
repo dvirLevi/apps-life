@@ -62,48 +62,48 @@
             link: "https://kash-bezmana.netlify.com/",
             id: 6
           },
-           {
-            img: require('../assets/shopil-screen.png'),
-            text: "אתר קונים ישראלי",
-            link: "https://shop-il.netlify.app/",
-            id: 8
-          },
-          {
-            img: require('../assets/rambam-screen.png'),
-            text: 'מערכת לווי לחוברת חופש של מרכז מורשת הרמב"ם',
-            link: "https://answer-rambam.herokuapp.com/",
-            id: 4
-          },
-          {
-            img: require('../assets/gin-screen.png'),
-            text: "אפליקציה לניהול גינה",
-            link: "https://gin-apps.herokuapp.com/",
-            id: 1
-          },
+          //  {
+          //   img: require('../assets/shopil-screen.png'),
+          //   text: "אתר קונים ישראלי",
+          //   link: "https://shop-il.netlify.app/",
+          //   id: 8
+          // },
+          // {
+          //   img: require('../assets/rambam-screen.png'),
+          //   text: 'מערכת לווי לחוברת חופש של מרכז מורשת הרמב"ם',
+          //   link: "https://answer-rambam.herokuapp.com/",
+          //   id: 4
+          // },
+          // {
+          //   img: require('../assets/gin-screen.png'),
+          //   text: "אפליקציה לניהול גינה",
+          //   link: "https://gin-apps.herokuapp.com/",
+          //   id: 1
+          // },
           // {
           //   img: require('../assets/send-screen.png'),
           //   text: "אפליקציה שעושה סדר בסנדוויצ'ים של הילדים",
           //   link: "https://dvirlevi.github.io/send-app/",
           //   id: 2
           // },
-          {
-            img: require('../assets/gimatria-screen.png'),
-            text: "אפליקציה לחישוב גימטריות עם אפשרות להעתקת הטקסט לשעשועונים וכד'",
-            link: "https://dvirlevi.github.io/gimatria-app/",
-            id: 3
-          },
-          {
-            img: require('../assets/emoji-screen.png'),
-            text: "משחק אימוג'ים",
-            link: "https://imoji-game.herokuapp.com/",
-            id: 9
-          },
-          {
-            img: require('../assets/rambam-screen2.png'),
-            text: 'משחק לפסח עם טבלת שיאים למרכז מורשת הרמב"ם',
-            link: "https://gamepessach.herokuapp.com/",
-            id: 5
-          },
+          // {
+          //   img: require('../assets/gimatria-screen.png'),
+          //   text: "אפליקציה לחישוב גימטריות עם אפשרות להעתקת הטקסט לשעשועונים וכד'",
+          //   link: "https://dvirlevi.github.io/gimatria-app/",
+          //   id: 3
+          // },
+          // {
+          //   img: require('../assets/emoji-screen.png'),
+          //   text: "משחק אימוג'ים",
+          //   link: "https://imoji-game.herokuapp.com/",
+          //   id: 9
+          // },
+          // {
+          //   img: require('../assets/rambam-screen2.png'),
+          //   text: 'משחק לפסח עם טבלת שיאים למרכז מורשת הרמב"ם',
+          //   link: "https://gamepessach.herokuapp.com/",
+          //   id: 5
+          // },
         ]
       }
     },
