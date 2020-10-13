@@ -21,8 +21,8 @@
     data() {
       return {
         does: [{
-            title: "פיתוח אפליקציות לווב",
-            text: "מערכות ואפליקציות שנמצאות על רשת האינטרנט ונגישות לכל מי שתרצו ברחבי העולם",
+            title: "פיתוח אפליקציות ווב",
+            text: "מערכות ואפליקציות שנמצאות על גבי רשת האינטרנט ונגישות לכל מי שתרצו ברחבי העולם",
             img: require('../assets/web.png'),
             id: 1
           },
@@ -68,7 +68,8 @@
   .box-what {
     width: 20%;
     background-color: #efd76d;
-    box-shadow: 1px 1px 3px #82828259;
+    /* box-shadow: 1px 1px 3px #82828259; */
+    border-radius: 20px;
     margin: 30px;
     height: 361px;
     padding: 10px

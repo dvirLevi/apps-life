@@ -26,25 +26,25 @@
       return {
         products: [
             {
-            img: require('../assets/shibolet-screen.png'),
+            img: require('../assets/ass1.jpg'),
             text: "אתר שיבולת",
             link: "https://www.shiboletpress.com/",
             id: 7
           },
           {
-            img: require('../assets/napoli.png'),
+            img: require('../assets/ass2.jpg'),
             text: "חנות לשיווק ומכירת תנורי נאפולי",
             link: "https://www.napoli-oven.co.il",
             id: 0
           },
-           {
-            img: require('../assets/meshek-screen.png'),
+          {
+            img: require('../assets/ass3.jpg'),
             text: "אתר חדשות המשק",
             link: "https://www.meshekil.com/",
             id: 7
           },
           {
-            img: require('../assets/shemaryahu-screen.png'),
+            img: require('../assets/ass4.jpg'),
             text: "שמריהו - חנות למכירת אדניות בוטיק",
             link: "https://shemaryahu.com/",
             id: 10
@@ -126,7 +126,8 @@
     width: 85%;
     /* border: solid rgb(241, 241, 241) 1px; */
     margin-top: 5%;
-    box-shadow: 1px 1px 6px gainsboro;
+        box-shadow: 1px 1px 20px #dcdcdc63;
+    border-radius: 20px;
   }
 
   .box-prod img {
@@ -136,9 +137,12 @@
   }
 
   .box-prod p {
-    width: 85%;
+       width: 85%;
     font-family: 'Assistant', sans-serif;
-    background-color: rgba(254, 151, 151, 0.15);
+    font-weight: 300;
+    background-color: rgb(224 92 92);
+    border-radius: 10px;
+    color: #fff;
     font-size: 21px;
     margin-top: 17px;
     min-height: 68px;
@@ -160,7 +164,7 @@
   @media (max-width: 767.98px) {
     .box-prod p {
       font-size: 21px;
-      min-height: 101px;
+      min-height: 59px;
       padding: 18px;
     }
   }
