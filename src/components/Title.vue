@@ -7,9 +7,9 @@
         </div>
         <Logo size="large" class="zindex" />
         <h2 class="w-100 zindex">פיתוח אתרים ואפליקציות</h2>
-        <vue-particles color="#4b383b" :particleOpacity="0.7" :particlesNumber="80" shapeType="circle" :particleSize="4"
+        <!-- <vue-particles color="#4b383b" :particleOpacity="0.7" :particlesNumber="80" shapeType="circle" :particleSize="4"
           linesColor="#4b383b" :linesWidth="1" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3"
-          :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push"></vue-particles>
+          :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push"></vue-particles> -->
       </div>
       <div class="w-100 p-3 arrow">
         <!-- <img @click="scroll()" src="../assets/arrow.png" alt=""> -->
