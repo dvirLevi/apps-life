@@ -1,9 +1,11 @@
 <template>
   <div class="w-100 my-sticky-top">
-    <div class="flip" v-if="ifShowTitle < heightTitle"></div>
+    <div class="flip" v-if="ifShowTitle < heightTitle">
+          <Logo size="medium" />
+    </div>
     <div v-if="ifShowTitle >= heightTitle" class="row  anim-title ">
       <div class="col">
-        <div class="bac-title">
+        <div class="bac-title pt-1 pb-1">
           <Logo size="medium" />
           <!-- <h1 class="w-100">פיתוח אתרים ואפליקציות</h1> -->
         </div>
@@ -58,12 +60,13 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    height: 67px;
+    /* height: 67px; */
     box-shadow: 0 1px 9px #0000001f;
   }
 
   .flip {
-    height: 115px;
+    /* height: 115px; */
+    opacity: 0;
   }
 
   .anim-title {
@@ -83,11 +86,11 @@
 
   @media (max-width: 767.98px) {
     .bac-title {
-      height: 60px;
+      /* height: 60px; */
     }
 
     .flip {
-      height: 60px;
+      /* height: 60px; */
     }
   }
 </style>

@@ -37,6 +37,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    
   }
 
   .wrap-logo svg {
@@ -53,19 +54,21 @@
   }
 
   .large h1 {
-    font-size: 100px;
+      font-size: 80px;
     width: 65%;
     line-height: 1.4;
     /* text-align: left; */
   }
 
   .large svg {
-    width: 35%;
+    width: 28%;
+    margin-right: 2px;
+        margin-bottom: 1.7%;
   }
 
   .medium h1 {
     font-size: 32px;
-    line-height: 1.3;
+        line-height: 1.1;
 
   }
 
@@ -75,13 +78,17 @@
   }
 
   .wrap-logo svg {
-    margin-bottom: 1.5%;
+    /* margin-bottom: 1.5%; */
   }
 
   @media (max-width: 767.98px) {
+    .wrap-logo h1 {
+    margin-left: -12%;
+}
+
     .large h1 {
       font-size: 55px;
-      width: 65%;
+      width: 58%;
       /* text-align: left; */
     }
 
@@ -90,8 +97,9 @@
     }
 
     .medium h1 {
-      font-size: 24px;
-          line-height: 1.4;
+        font-size: 24.6px;
+    line-height: 1.2;
+
     }
 
     .medium svg {

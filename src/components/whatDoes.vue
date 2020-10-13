@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div id="scrollEl" class="row">
     <div class="col">
       <p class="title-prod mt-5">מה אנחנו עושים?</p>
       <div class="w-100 center-all">
@@ -76,6 +76,7 @@
 
   .box-what p {
     font-size: 21px;
+    
   }
 
   .box-what img {

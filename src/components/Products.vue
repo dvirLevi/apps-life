@@ -1,6 +1,6 @@
 <template>
   <div class="row justify-content-center">
-    <p class="title-prod mt-5">הפיתוחים שלנו</p>
+    <p class="title-prod mt-5">פיתוחים שלנו</p>
     <div class="col-md-4" v-for="product in products" :key="product.id">
       <div class="w-100 center-all">
         <a class="box-prod center-all" :href="product.link" target="_blanc">

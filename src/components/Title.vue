@@ -37,7 +37,13 @@
     },
     methods: {
       scroll() {
-        window.scrollTo(0, window.innerHeight + 2)
+        let element = document.getElementById("scrollEl");
+              element.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest"
+              });
+        // window.scrollTo(0, window.innerHeight + 2)
       }
     }
   }
@@ -62,11 +68,12 @@
     /* font-family: 'Assistant', sans-serif;
     font-size: 48px;
     font-weight: 200; */
-    font-family: 'Assistant', sans-serif;
-    font-size: 41px;
+        /* font-family: Assistant,sans-serif; */
+    font-size: 32px;
     font-weight: 200;
-    padding-left: 97px;
-  }
+    padding-left: 12px;
+}
+  
 
   .zindex {
     position: relative;

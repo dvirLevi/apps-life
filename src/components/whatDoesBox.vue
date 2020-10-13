@@ -1,10 +1,10 @@
 <template>
-  <div ref="boxWhat" class="box-what center-all">
+  <div ref="boxWhat" class="box-what f-center-top p-3">
     <div class="w-100 center-all">
       <img :src="item.img" alt="" :style="{transform: `rotate(${namAnim}deg) scale(${namAnimScale})`, opacity: namAnimScale }">
     </div>
-    <h2>{{item.title}}</h2>
-    <p>{{item.text}}</p>
+    <h2 class="mt-3">{{item.title}}</h2>
+    <p class="mt-2">{{item.text}}</p>
   </div>
 
 </template>
@@ -66,17 +66,20 @@
     background-color: #efd76d;
     box-shadow: 1px 1px 3px #82828259;
     margin: 30px;
-    height: 361px;
+    height: 320px;
     padding: 10px
   }
+.box-what h2 {
+   font-weight: 800;
 
+  }
   .box-what p {
     font-size: 21px;
 
   }
 
   .box-what img {
-    width: 50%;
+        height: 121px;
 
   }
 
