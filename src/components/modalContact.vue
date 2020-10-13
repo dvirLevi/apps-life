@@ -43,9 +43,10 @@
     methods: {
       async sendMail() {
         if (this.textSend === "שלח, לא תתחרט") {
-          this.textSend = "המתן..."
+          this.textSend = "המתן...";
           await myMail.sendToMail(this.data, null, "יצירת קשר appsLife");
-          this.textSend = "שלח, לא תתחרט"
+          this.textSend = "שלח, לא תתחרט";
+          this.$emit('closeModal');
         }
       }
     },
