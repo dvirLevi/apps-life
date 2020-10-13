@@ -1,11 +1,12 @@
 <template>
   <div>
-    <Title/>
-    <HideTitle :ifShowTitle="ifShowTitle"/>
-    <whatDoes :ifAnim="ifAnim"/>
-    <Products/>
-    <Contact/>
-    <Footer/>
+    <Title />
+    <HideTitle :ifShowTitle="ifShowTitle" />
+    <whatDoes :ifAnim="ifAnim" />
+    <Products />
+    <Contact />
+    <Footer />
+    <modalContact v-if="ifShowModal" @closeModal="ifShowModal = !ifShowModal" />
   </div>
 </template>
 
@@ -17,6 +18,7 @@
   import Contact from '@/components/Contact.vue'
   import Footer from '@/components/Footer.vue'
   import whatDoes from '@/components/whatDoes.vue'
+  import modalContact from '@/components/modalContact.vue'
 
 
   export default {
@@ -27,19 +29,25 @@
       Products,
       Contact,
       Footer,
-      whatDoes
+      whatDoes,
+      modalContact
     },
-    data(){
+    data() {
       return {
-ifShowTitle: "",
-ifAnim: ""
+        ifShowTitle: "",
+        ifAnim: "",
+        ifShowModal: false
       }
     },
-    mounted(){
+    mounted() {
       window.onscroll = () => {
         this.ifShowTitle = document.documentElement.scrollTop;
         this.ifAnim = document.documentElement.scrollTop
       };
+
+      setTimeout(() => {
+        this.ifShowModal = true;
+      }, 10000)
     }
   }
 </script>

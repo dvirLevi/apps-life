@@ -29,6 +29,12 @@
             img: require('../assets/ass1.jpg'),
             text: "אתר שיבולת",
             link: "https://www.shiboletpress.com/",
+            id: 11
+          },
+           {
+            img: require('../assets/ass3.jpg'),
+            text: "אתר חדשות המשק",
+            link: "https://www.meshekil.com/",
             id: 7
           },
           {
@@ -36,12 +42,6 @@
             text: "חנות לשיווק ומכירת תנורי נאפולי",
             link: "https://www.napoli-oven.co.il",
             id: 0
-          },
-          {
-            img: require('../assets/ass3.jpg'),
-            text: "אתר חדשות המשק",
-            link: "https://www.meshekil.com/",
-            id: 7
           },
           {
             img: require('../assets/ass4.jpg'),
