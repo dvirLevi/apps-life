@@ -91,6 +91,7 @@
 
     .box-what {
       width: 90%;
+      height: auto;
     }
 
     .box-what img {
