@@ -85,9 +85,6 @@
   }
 
   @media (max-width: 767.98px) {
-    .row {
-      /* margin-top: -58px */
-    }
 
     .box-what {
       width: 90%;
