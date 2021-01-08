@@ -46,7 +46,7 @@
           {
             img: require('../assets/ass4.jpg'),
             text: "שמריהו - חנות למכירת אדניות בוטיק",
-            link: "https://shemaryahu.com/",
+            link: "https://www.shemaryahu.com/",
             id: 10
           },
           
