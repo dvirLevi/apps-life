@@ -53,7 +53,7 @@
           {
             img: require('../assets/leda.png'),
             text: "אתר מתקוננת להריון ולידה",
-            link: "https://www.mitkonenet.com",
+            link: "https://www.mitkonenet.co.il",
             id: 2
           },
           {
