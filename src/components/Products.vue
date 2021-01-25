@@ -62,18 +62,18 @@
             link: "https://kash-bezmana.netlify.com/",
             id: 6
           },
-          //  {
-          //   img: require('../assets/shopil-screen.png'),
-          //   text: "אתר קונים ישראלי",
-          //   link: "https://shop-il.netlify.app/",
-          //   id: 8
-          // },
-          // {
-          //   img: require('../assets/rambam-screen.png'),
-          //   text: 'מערכת לווי לחוברת חופש של מרכז מורשת הרמב"ם',
-          //   link: "https://answer-rambam.herokuapp.com/",
-          //   id: 4
-          // },
+           {
+            img: require('../assets/aca-screen.png'),
+            text: "האקדמיה לאמהות",
+            link: "https://www.haacademyaleimahot.co.il/",
+            id: 8
+          },
+          {
+            img: require('../assets/ram-screen.png'),
+            text: 'חידון הרמב"ם לילדים',
+            link: "https://rambam-quiz.netlify.app/",
+            id: 4
+          },
           // {
           //   img: require('../assets/gin-screen.png'),
           //   text: "אפליקציה לניהול גינה",
