@@ -68,18 +68,19 @@
             link: "https://www.haacademyaleimahot.co.il/",
             id: 8
           },
+           {
+            img: require('../assets/esc-screen.png'),
+            text: 'חדר בריחה "ממרוקו לתימן"',
+            link: "https://esc-room.netlify.app/",
+            id: 1
+          },
           {
             img: require('../assets/ram-screen.png'),
             text: 'חידון הרמב"ם לילדים',
             link: "https://rambam-quiz.netlify.app/",
             id: 4
           },
-          // {
-          //   img: require('../assets/gin-screen.png'),
-          //   text: "אפליקציה לניהול גינה",
-          //   link: "https://gin-apps.herokuapp.com/",
-          //   id: 1
-          // },
+         
           // {
           //   img: require('../assets/send-screen.png'),
           //   text: "אפליקציה שעושה סדר בסנדוויצ'ים של הילדים",
