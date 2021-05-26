@@ -1,12 +1,12 @@
 <template>
   <div class="row">
     <div class="col">
-      <div class="bac-title position-relative" :style="{height: heightTitle + 'px' }">
-        <div class="position-absolute w-100">
+      <div class="bac-title position-relative f-center" :style="{height: heightTitle + 'px' }">
+        <div class="icons-contact w-100">
           <IconsContact />
         </div>
         <Logo size="large" class="zindex" />
-        <h2 class="w-100 zindex">פיתוח אתרים ואפליקציות</h2>
+        <!-- <h2 class="w-100 zindex">פיתוח אתרים ואפליקציות</h2> -->
         <vue-particles color="#4b383b" :particleOpacity="0.7" :particlesNumber="80" shapeType="circle" :particleSize="4"
           linesColor="#4b383b" :linesWidth="1" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3"
           :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push"></vue-particles>
@@ -72,6 +72,11 @@
     font-size: 32px;
     font-weight: 200;
     padding-left: 12px;
+}
+
+.icons-contact {
+  position: absolute;
+  top: 0;
 }
   
 

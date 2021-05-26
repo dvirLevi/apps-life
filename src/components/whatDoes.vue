@@ -1,11 +1,36 @@
 <template>
   <div id="scrollEl" class="row">
     <div class="col">
-      <p class="title-prod mt-5">מה אנחנו עושים?</p>
-      <div class="w-100 center-all">
+      <p class="title-prod mt-5 mb-5">מה אנחנו עושים?</p>
+      <!-- <div class="w-100 center-all">
         <whatDoesBox v-for="item in does" :key="item.id" :item="item" :ifAnim="ifAnim" />
+      </div> -->
+      <div class="row pb-5">
+        <img class="wave" src="@/assets/ass3.svg" alt="">
+        <!-- <img class="wave-up" src="@/assets/ass4.svg" alt=""> -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 order-md-0 order-1 text-right">
+              <h1 class="font-weight-bolder mt-md-0 mt-5">פיתוח מערכות web ואתרים</h1>
+              <p>פיתוח מערכות </p>
+            </div>
+            <div class="col-md-4 order-md-1 order-0">
+              <img src="@/assets/ass2.svg" alt="">
+            </div>
+            <!-- <div class="col-md-1"></div> -->
+          </div>
+          <div class="row">
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-8"></div>
+
+            <div class="col-md-4">
+              <img src="@/assets/ass1.svg" alt="">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -53,11 +78,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .row {
-    background-color: #f3de80;
-    /* margin-top: -50px */
-  }
-
   .title-prod {
     width: 100%;
     font-family: 'Assistant', sans-serif;
@@ -65,34 +85,17 @@
     font-size: 51px;
   }
 
-  .box-what {
-    width: 20%;
-    background-color: #efd76d;
-    /* box-shadow: 1px 1px 3px #82828259; */
-    border-radius: 20px;
-    margin: 30px;
-    height: 361px;
-    padding: 10px
-  }
+  .wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 
-  .box-what p {
-    font-size: 21px;
-    
-  }
-
-  .box-what img {
-    width: 50%;
   }
 
   @media (max-width: 767.98px) {
-
-    .box-what {
-      width: 90%;
-      height: auto;
+    img {
+      width: 50%;
     }
 
-    .box-what img {
-      width: 70%;
-    }
   }
 </style>

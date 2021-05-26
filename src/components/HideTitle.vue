@@ -1,12 +1,12 @@
 <template>
   <div class="w-100 my-sticky-top">
     <div class="flip" v-if="ifShowTitle < heightTitle">
-          <Logo size="medium" />
+          <Logo class="ml-3" size="medium" />
     </div>
     <div v-if="ifShowTitle >= heightTitle" class="row  anim-title ">
       <div class="col">
         <div class="bac-title pt-1 pb-1">
-          <Logo size="medium" />
+          <Logo class="ml-3" size="medium" />
           <!-- <h1 class="w-100">פיתוח אתרים ואפליקציות</h1> -->
         </div>
       </div>
