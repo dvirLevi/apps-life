@@ -46,7 +46,7 @@
           {
             img: require('../assets/ass4.jpg'),
             text: "שמריהו - חנות למכירת אדניות בוטיק",
-            link: "https://www.shemaryahu.com/",
+            link: "https://shemaryahu.netlify.app/",
             id: 10
           },
           
