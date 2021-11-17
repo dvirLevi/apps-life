@@ -1077,6 +1077,7 @@ section {
   font-weight: 600;
   color: #fff;
   margin-bottom: 0px;
+  padding: 10px 0px;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
@@ -1922,4 +1923,20 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+
+.whatsapp-fix {
+  width: 65px;
+  height: 65px;
+  background-color: #14c656;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
 }
