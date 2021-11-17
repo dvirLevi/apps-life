@@ -47,6 +47,23 @@ h6 {
   /* font-family: "Jost", sans-serif; */
 }
 
+.img-circle {
+  aspect-ratio: 1;
+  border-radius: 100%;
+}
+
+.img-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.img-contain {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -817,10 +834,29 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .content h3 {
-  font-weight: 700;
-  font-size: 32px;
-  color: var(--main-color);
+  /* font-weight: 700; */
+  /* font-size: 32px; */
+  /* color: var(--main-color); */
   /* font-family: "Poppins", sans-serif; */
+}
+
+.skills .coffee-img {
+  position: absolute;
+  bottom: 0;
+  left: 24%;
+  width: 237px;
+  transform: rotate(12deg);
+}
+
+.skills .circle {
+  width: 45%;
+  padding-top: 42%;
+  position: absolute;
+  top: 28%;
+  right: 28%;
+  border: solid #3b8fd7 6px;
+  border-radius: 100%;
+  z-index: -1;
 }
 
 .skills .content ul {
@@ -874,6 +910,16 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #4668a2;
+}
+
+@media (max-width: 769px) {
+  .skills .coffee-img {
+    /* position: absolute; */
+    bottom: 83px;
+    left: 7%;
+    width: 131px;
+    /* transform: rotate(12deg); */
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1021,7 +1067,7 @@ section {
   z-index: 3;
   right: 15px;
   transition: all 0.3s;
-  background: rgba(55, 81, 126, 0.8);
+  background: #282a2ede;
   padding: 10px 15px;
 }
 
@@ -1162,6 +1208,10 @@ section {
   /* padding-right: 30px; */
 }
 
+.team .member .member-info h2 {
+  font-weight: 800;
+}
+
 /* .team .member h5 {
   font-weight: 700;
   margin-bottom: 5px;
@@ -1193,39 +1243,39 @@ section {
   font-size: 14px;
 }
 
-.team .member .social {
+.social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.team .member .social a {
+.social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
   background: #eff2f8;
 }
 
-.team .member .social a i {
+.social a i {
   color: var(--main-color);
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 2px;
 }
 
-.team .member .social a:hover {
+.social a:hover {
   background: var(--secundery-color);
 }
 
-.team .member .social a:hover i {
+.social a:hover i {
   color: #fff;
 }
 
-.team .member .social a+a {
+.social a {
   margin-left: 8px;
 }
 
