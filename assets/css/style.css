@@ -368,8 +368,8 @@ h6 {
 }
 
 .navbar-mobile a {
-  padding: 10px 20px;
-  font-size: 22px;
+  padding: 10px 20px !important;
+  font-size: 22px !important;
   color: var(--main-color);
 }
 
