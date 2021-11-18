@@ -881,8 +881,8 @@ section {
 
 .skills .content ul i {
   font-size: 20px;
-  padding-right: 4px;
-  color: var(--secundery-color);
+  /* padding-right: 4px; */
+  /* color: var(--secundery-color); */
 }
 
 .skills .content p:last-child {
