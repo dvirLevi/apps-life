@@ -309,6 +309,16 @@ h6 {
   }
 }
 
+@media (max-width: 769px) {
+
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 20px;
+    /* line-height: 0; */
+    /* margin-left: 5px; */
+  }
+}
+
 /**
 * Mobile Navigation 
 */
