@@ -160,7 +160,7 @@ h6 {
   background: rgb(40 42 46 / 87%);
 }
 
-#header .logo {
+/* #header .logo {
   font-size: 30px;
   margin: 0;
   padding: 0;
@@ -168,7 +168,7 @@ h6 {
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
-}
+} */
 
 #header .logo a {
   color: #fff;
@@ -1064,7 +1064,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
-  box-shadow: 3px 3px 8px 2px #0000008a;
+  box-shadow: 2px 2px 8px 2px #0000006b;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
