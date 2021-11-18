@@ -1064,6 +1064,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
+  box-shadow: 3px 3px 8px 2px #0000008a;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
@@ -1294,7 +1295,7 @@ section {
 @media (max-width: 769px) {
   .team .member {
     padding: 15px;
-    border-radius: 0px;
+    /* border-radius: 0px; */
   }
 }
 
