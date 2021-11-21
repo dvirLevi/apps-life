@@ -9,7 +9,8 @@
 # General
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --main-color: #282a2e;
@@ -22,7 +23,8 @@
 
 body {
   direction: rtl;
-  font-family: 'Assistant', sans-serif !important;
+  /* font-family: 'Assistant', sans-serif !important; */
+  font-family: 'Heebo', sans-serif;
   color: var(--main-text-color);
   text-align: right !important;
   direction: rtl !important;
@@ -857,10 +859,11 @@ section {
 
 .skills .coffee-img {
   position: absolute;
-  bottom: 0;
-  left: 24%;
+  bottom: 13%;
+  left: 28%;
   width: 237px;
-  transform: rotate(12deg);
+  transform: rotate(
+12deg);
 }
 
 .skills .circle {
@@ -929,11 +932,9 @@ section {
 
 @media (max-width: 769px) {
   .skills .coffee-img {
-    /* position: absolute; */
-    bottom: 83px;
+    bottom: 22%;
     left: 7%;
-    width: 131px;
-    /* transform: rotate(12deg); */
+    width: 114px;
   }
 }
 
