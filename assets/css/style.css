@@ -1074,6 +1074,8 @@ section {
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
   box-shadow: 2px 2px 13px 2px #00000012;
+  background-color: #ededed;
+  border-radius: 8px;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
@@ -1090,6 +1092,7 @@ section {
   transition: all 0.3s;
   background: #282a2ede;
   padding: 10px 15px;
+  border-radius: 8px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
