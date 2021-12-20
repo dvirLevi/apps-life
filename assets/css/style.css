@@ -1073,7 +1073,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
-  box-shadow: 2px 2px 8px 2px #0000006b;
+  box-shadow: 2px 2px 13px 2px #00000012;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
@@ -1095,7 +1095,7 @@ section {
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 200;
   color: #fff;
   margin-bottom: 0px;
   padding: 10px 0px;
