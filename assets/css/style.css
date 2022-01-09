@@ -864,10 +864,11 @@ section {
 
 .skills .coffee-img {
   position: absolute;
-  bottom: 22%;
-  left: 28%;
-  width: 199px;
-  transform: rotate(12deg);
+  bottom: 31%;
+  left: 41%;
+  width: 146px;
+  transform: rotate(
+12deg);
 }
 
 .skills .circle {
