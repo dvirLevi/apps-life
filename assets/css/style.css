@@ -865,7 +865,7 @@ section {
 
 .skills .coffee-img {
   position: absolute;
-  bottom: 35%;
+  bottom: 30%;
   left: 41%;
   width: 146px;
   transform: rotate(
@@ -938,9 +938,9 @@ section {
 
 @media (max-width: 769px) {
   .skills .coffee-img {
-    bottom: 40%;
-    left: 6%;
-    width: 29%;
+    bottom: 39%;
+    left: 16%;
+    width: 25%;
   }
 }
 
