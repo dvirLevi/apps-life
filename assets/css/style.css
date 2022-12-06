@@ -1282,15 +1282,16 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50px;
-  width: 42px;
-  height: 42px;
-  background: #eff2f8;
+  border-radius: 100px;
+  width: 55px;
+  height: 55px;
+  background: #ffffff;
+  margin: 6px;
 }
 
 .social a i {
   color: var(--main-color);
-  font-size: 20px;
+  font-size: 22px;
   margin: 0 2px;
 }
 
@@ -1302,16 +1303,19 @@ section {
   color: #fff;
 }
 
-.social a {
-  margin-left: 8px;
-}
-
 @media (max-width: 769px) {
   .team .member {
     /* padding: 15px; */
     /* border-radius: 0px; */
   }
+
+  .social {
+
+    justify-content: center;
+  }
 }
+
+
 
 /*--------------------------------------------------------------
 # Pricing
