@@ -230,7 +230,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: var(--secundery-color);
+  color: #fff;
+  font-weight: 800;
 }
 
 .navbar .getstarted {
