@@ -175,6 +175,7 @@ a:hover {
 .top-background {
   opacity: 0.2;
   background-image: url('../../assets/img/bg.png');
+  filter: grayscale(1);
 }
 
 .img-cover {
