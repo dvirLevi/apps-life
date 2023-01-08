@@ -946,7 +946,7 @@ section {
 
 @media (max-width: 769px) {
   .skills .coffee-img {
-    bottom: 40%;
+    bottom: 37%;
     left: 11%;
     width: 18%;
   }
@@ -1102,7 +1102,7 @@ section {
   transition: all 0.3s;
   background: #282a2ede;
   padding: 10px 15px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
