@@ -173,7 +173,20 @@ a:hover {
 }
 
 .top-background {
-  opacity: 0.2;
+  opacity: 0.1;
+  background-image: url('../../assets/img/bg.png');
+}
+
+.img-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.img-contain {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
 }
 
 /*--------------------------------------------------------------
