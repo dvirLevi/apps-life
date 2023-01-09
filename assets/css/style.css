@@ -175,7 +175,17 @@ a:hover {
 .top-background {
   opacity: 0.2;
   background-image: url('../../assets/img/bg.png');
-  filter: grayscale(1);
+  animation: blur-icons 4s;
+  /* filter: grayscale(0); */
+}
+
+@keyframes blur-icons {
+  from {
+    filter: grayscale(1) blur(3px);
+  }
+  to {
+    filter: grayscale(0) blur(0px);
+  }
 }
 
 .img-cover {
@@ -370,7 +380,7 @@ a:hover {
 }
 
 .navbar-mobile .la-times {
- color: var(--main-color);
+  color: var(--main-color);
 }
 
 .navbar-mobile .mobile-nav-toggle {
