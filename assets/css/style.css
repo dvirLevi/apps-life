@@ -175,18 +175,18 @@ a:hover {
 .top-background {
   opacity: 0.2;
   background-image: url('../../assets/img/bg.png');
-  animation: blur-icons 3s;
-  /* filter: grayscale(0); */
+  /* animation: blur-icons 3s; */
+  filter: grayscale(1);
 }
 
-@keyframes blur-icons {
+/* @keyframes blur-icons {
   from {
     filter: grayscale(1) blur(3px);
   }
   to {
     filter: grayscale(0) blur(0px);
   }
-}
+} */
 
 .img-cover {
   background-repeat: no-repeat;
