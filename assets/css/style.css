@@ -175,7 +175,7 @@ a:hover {
 .top-background {
   opacity: 0.2;
   background-image: url('../../assets/img/bg.png');
-  animation: blur-icons 3s;
+  animation: blur-icons 2s;
   filter: grayscale(1);
 }
 
